@@ -38,7 +38,23 @@ namespace e_StudyFile.Controllers
             return View();
         }
 
+        public IActionResult Espacios()
+        {
+            return View();
+        }
+        public IActionResult Notas()
+        {
+            return View();
+        }
 
+        public IActionResult Agenda()
+        {
+            return View();
+        }
+        public IActionResult Documentos()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
